@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    padding: 20px;
+    background: wheat;
+
+    ul {
+        display: flex;
+        gap: 10px;
+
+        li {
+            list-style: none;
+
+            a {
+                font-size: 20px;
+                text-transform: uppercase;
+                font-weight: 800;
+                text-decoration: none;
+            }
+        }
+    }
+}
